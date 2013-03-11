@@ -1,4 +1,4 @@
-class fizzbuzz
+class FizzBuzz
 	def self.identify(number1)
 		# code
 		if 
@@ -21,5 +21,5 @@ end
 puts "Give us a number"
 	number = gets.chomp
 
-puts fizzbuzz.identify(number)
+puts FizzBuzz.identify(number)
 
